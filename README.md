@@ -11,6 +11,8 @@ The ask_for_input() function calls the check_guess() function. The check_guess()
 
 The game is implemented in the first place with the function play_game(). This calls the ask_for_input() function if the player has a positive number of lives. The function is also responsible for telling the player if and when they win or lose the game of Hangman.
 
+The file milestone_5 shows the full Hangman class, while the milestones before show earlier forms of the check_guess() and ask_for_input() functions.
+
 I had to take care when using while loops whilst creating these functions. I initally encountered a problem where the num_lives variable continued to reduce below zero due to a misplaced while loop.
 
 ### Usage
