@@ -57,7 +57,6 @@ class Hangman:
         if guess in self.word:
             print(f"Good guess! {guess} is in the word.")
             self.num_letters -= 1
-            print(self.num_letters)
             # uses enumerate to ensure all instances of a letter are entered into word_guessed
             for index, letter in enumerate(self.word):
                 if letter == guess:
